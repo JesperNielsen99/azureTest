@@ -23,7 +23,6 @@ function setBackgroundColor() {
 pbFillDropdown.addEventListener('click', addColors)
 ddColor.addEventListener('change', setBackgroundColor)
 
-/*
 function getRandomColor() {
     const r = Math.floor(Math.random() * 256);
     const g = Math.floor(Math.random() * 256);
@@ -44,4 +43,3 @@ const intervalId = setInterval(changeBackgroundColor, 1);
 window.addEventListener("beforeunload", () => {
     clearInterval(intervalId);
 });
-*/
